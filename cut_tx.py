@@ -18,7 +18,7 @@ def cut_textures(import_dir, output_dir, size=(128, 128)):
             image = Image.open(file_path)
 
             # Pętla po wszytkich możliwych pozycjach wycięcia
-            # pozycje wycięcia odnoszą się do współrzędnych na onrazie, z których wycinane są fragmenty 128 x 128
+            # pozycje wycięcia odnoszą się do współrzędnych na obrazie, z których wycinane są fragmenty 128 x 128
             # każdy fragment zaczyna się od określonej pozycji x, y na obrazie i kończy się na pozycji
             # x + szerokość frag., y + wysokość frag.
             # iterowanie przez cały obraz
